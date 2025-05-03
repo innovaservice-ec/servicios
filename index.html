@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innova Service - Tu aliado en Servicios de Tecnología</title>
+    <meta name="description" content="Innova Service es una empresa líder en el mercado, especializada en productos de Computación y Solución de Redes.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./images/Innova.png" alt="Logo de Innova Service">
+                <div class="logo-text">
+                    <h1>Innova </br>Service </h1>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#products"><i class="fas fa-home"></i>Inicio</a></li>
+                    <li><a href="#about"><i class="fas fa-users"></i> Quiénes somos</a></li>
+                    <li><a href="#servicios"><i class="far fa-handshake"></i> Servicios</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Bienvenido a Innova Service</h2>
+                <p>Tu proveedor confiable de productos de computación y  Solución de Redes</p>
+                <a href="#products" class="btn">Explorar Productos</a>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="container">
+                <h2>Nuestros Productos Destacados</h2>
+                <div class="product-grid">
+                    <!-- Los productos se cargarán dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Quiénes Somos</h2>
+                <p>Innova Service es una empresa líder en el mercado, especializada en productos de Computación y Solución de Redes. </br>
+                   Con 5 años de experiencia, nos enorgullecemos de ofrecer productos de la más alta calidad y un servicio al cliente de calidad.</p>
+            </div>
+        </section>
+
+        <!-- Servicios Section -->
+        <section id="servicios" class="servicios">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                   <h2>SERVICIOS</h2>
+                   <div class="separator"></div>
+                </div>
+                <div class="benefits-grid">
+                    <div class="benefit-card reveal-on-scroll">
+                        <div class="benefit-icon">
+                           <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Soporte Técnico</h3>
+                        <p>Soluciones rápidas y eficientes para problemas de hardware y software, mantenimiento preventivo y correctivo, asistencia remota y presencial para garantizar el óptimo funcionamiento de tus equipos.</p>
+                    </div>
+                    <div class="benefit-card reveal-on-scroll" data-delay="100">
+                        <div class="benefit-icon">
+                           <i class="fas fa-coins"></i>
+                        </div>
+                        <h3>Asesoramiento en tecnología</h3>
+                        <p>Evaluamos tus necesidades tecnológicas y te brindamos recomendaciones personalizadas para optimizar infraestructura, software y seguridad, garantizando la mejor inversión en TI.</p>
+                    </div>
+                    <div class="benefit-card reveal-on-scroll" data-delay="200">
+                        <div class="benefit-icon">
+                           <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Sistemas Operativos</h3>
+                        <p>(Windows y Linux): Instalación, configuración, actualización y migración entre sistemas operativos, personalización según necesidades y soporte técnico especializado para maximizar rendimiento.</p>
+                    </div>
+                    <div class="benefit-card reveal-on-scroll" data-delay="300">
+                        <div class="benefit-icon">
+                           <i class="fas fa-user-shield"></i>
+                        </div>
+                        <h3>Redes</h3>
+                        <p>Configuración, administración y solución de problemas en redes LAN/WAN, conexión de equipos, seguridad de red y optimización para garantizar comunicación estable y segura en tu empresa.</p>
+                    </div>
+                    <div class="benefit-card reveal-on-scroll" data-delay="400">
+                        <div class="benefit-icon">
+                          <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Soluciones informáticas</h3>
+                        <p>Desarrollamos e implementamos sistemas a medida, integración de herramientas y automatización de procesos para aumentar la productividad y eficiencia de tu negocio.</p>
+                    </div>
+                    <div class="benefit-card reveal-on-scroll" data-delay="500">
+                        <div class="benefit-icon">
+                           <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Acompañamiento continuo</h3>
+                        <p>No solo desarrollamos soluciones, sino que Capacitamos y Acompañamos en todo el proceso.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contáctanos</h2>
+                <div class="contact-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" placeholder="Nombre y Apellido" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="correo electrònico" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="teléfono" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Tu comentario:</label>
+                            <textarea id="comment" name="comment" placeholder="Indìcanos tu duda o comentario." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+
+                    <div class="contact-info">
+                        <h3>¡Contáctanos!</h3>
+                        <p>Le brindaremos la mejor atención.</p>
+
+                        <h3>📲</h3>
+                        <p>+593 994 626 438</p>
+
+                        <h3>📩</h3>
+                        <p>contacto@innovaservice.com</p>
+                        <div class="thank-you-message">
+                            <p>Muchas gracias por dejarnos su comentario o sugerencia. Su opinión es muy importante para nosotros. Le estaremos contactando a la mayor brevedad posible.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Innova Service. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
